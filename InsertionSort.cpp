@@ -9,15 +9,15 @@ void input()
 while (true)
 {
 cout << "Masukkan Jumlah data pada Array : ";
-cin << n; 
+cin >> n; 
 
-if ( n => 20)
+if ( n <= 20)
 { // membuat kondisi n tidak lebih dari 20 
 break;    
 }
 else
 {
-cout << "\n Array yang ada masukkan maksimal 20 Elemen.\n; "
+cout << "\n Array yang ada masukkan maksimal 20 Elemen.\n";
 }
 }
 cout << endl;
@@ -27,7 +27,7 @@ cout << "=======================" << endl;
 
 for (int i = 0; i < n; i++)
 {
-cout << "Data ke-" << (i + 1) << :;
+cout << "Data ke-" << (i + 1) << ":";
 cin >> arr[i];
 }
 }
@@ -63,4 +63,14 @@ cout << "Total Passs = " << n - 1 << endl;
 cout << "===================================" << endl;
 cout << "Element Array yang telah tersusun" << endl;
 cout << "===================================" << endl;
+
+for (int j = 0; j < n; j++)
+{ // looping dengan j dimulai dari 0 hingga ke n-1
+cout << arr[j] << endl; 
 }
+cout << endl;
+}
+
+int main()
+{
+input();
