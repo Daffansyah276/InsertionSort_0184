@@ -54,3 +54,13 @@ j--; //step 4b
 arr[j + 1 ] = temp; //step 5 
 }
 }
+
+void display ()
+{
+cout << endl;
+cout << "===================================" << endl;
+cout << "Total Passs = " << n - 1 << endl;
+cout << "===================================" << endl;
+cout << "Element Array yang telah tersusun" << endl;
+cout << "===================================" << endl;
+}
