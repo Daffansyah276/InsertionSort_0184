@@ -74,3 +74,4 @@ cout << endl;
 int main()
 {
 input();
+InsertionSort();
