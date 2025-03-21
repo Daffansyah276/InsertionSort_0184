@@ -75,3 +75,5 @@ int main()
 {
 input();
 InsertionSort();
+display();
+system("Pause");
