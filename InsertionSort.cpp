@@ -32,3 +32,9 @@ cin >> arr[i];
 }
 }
 
+void InsertionSort()
+{ // prosedure InsertionSort
+
+int temp;
+int j, i; 
+
