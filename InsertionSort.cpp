@@ -9,5 +9,5 @@ void input()
 while (true)
 {
 cout << "Masukkan Jumlah data pada Array : ";
-
+cin << n; 
 }
